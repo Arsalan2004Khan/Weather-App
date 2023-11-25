@@ -1,0 +1,103 @@
+#i1 {
+    color: white;
+    border: 2px solid lightblue;
+    border-radius: 50px;
+    height: 60px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 550px;
+    margin-right: -305px;
+    }
+    
+    body {
+        font-family: lato;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(15, 15, 15);
+    }
+    
+    
+    .container {
+        width: 300px;
+        height: 450px;
+        padding: 22px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 90px;
+    }
+    
+    img {
+        width: 210px;
+        margin-top: -22px;
+    }
+    
+    .srh {
+        display: flex;
+        margin-top: 11px;
+    }
+    
+    input {
+        width: 200px;
+        padding: 16px;
+        border-radius: 16px;
+        height: 8px;
+        border: none;
+        outline: none;
+        font-size: 19px;
+        background-color: lightblue;
+        font-weight: bold;
+    }
+    
+    input:focus{
+        outline: 2px solid rgb(64, 190, 232);
+    }
+    
+    input:hover{
+        background-color: rgb(17, 192, 241);
+    }
+    
+    ::placeholder {
+        color: black;
+        font-weight: bold;
+    }
+    
+    button {
+        width: 70px;
+        height: 35px;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        background-color: lightblue;
+        margin-top: 2px;
+        margin-inline: 9px;
+        font-weight: bold;
+    }
+    
+    #i2:hover{
+        background-color: rgb(17, 192, 241);
+    }
+    
+    #i2:focus{
+        outline: 2px solid rgb(64, 190, 232);
+    }
+    
+    #city {
+        margin-top: 33px;
+        font-size: 33px;
+    
+    }
+    
+    #temp {
+        font-size: 40px;
+        margin-top: 5px;
+    }
+    
+    #type {
+        font-size: 26px;
+        margin-top: -33px;
+    }
